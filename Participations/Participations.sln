@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P-VowlsandConsonants", "P-VowlsandConsonants\P-VowlsandConsonants.csproj", "{D0A3EEC0-E22D-4E76-B921-87293B88B81D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P-VowlsandConsonants", "P-VowlsandConsonants\P-VowlsandConsonants.csproj", "{D0A3EEC0-E22D-4E76-B921-87293B88B81D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-Classes", "Wpf-Classes\Wpf-Classes.csproj", "{35841996-18CD-4E6E-842B-33E0C82E3473}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D0A3EEC0-E22D-4E76-B921-87293B88B81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0A3EEC0-E22D-4E76-B921-87293B88B81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0A3EEC0-E22D-4E76-B921-87293B88B81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35841996-18CD-4E6E-842B-33E0C82E3473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35841996-18CD-4E6E-842B-33E0C82E3473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35841996-18CD-4E6E-842B-33E0C82E3473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35841996-18CD-4E6E-842B-33E0C82E3473}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
