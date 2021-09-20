@@ -44,7 +44,7 @@ namespace Wpf_Classes
                 MessageBox.Show("You must enter a valid toy URL");
             }
             double price;
-            if (double.TryParse(txtPrice.Text, out price) == true)
+            if (double.TryParse(txtPrice.Text, out price) == false)
             {
                 doubleCheck = false;
                 MessageBox.Show("You must enter a valid price");
