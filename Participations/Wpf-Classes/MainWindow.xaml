@@ -14,11 +14,10 @@
         <TextBox x:Name="txtManufacturer" HorizontalAlignment="Left" Margin="201,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" Height="48" FontSize="18"/>
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="201,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" Height="48" FontSize="18"/>
         <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Margin="201,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" Height="48" FontSize="18"/>
-        <Button x:Name="btnaddtoy" Content="Add Toy" HorizontalAlignment="Left" Margin="106,340,0,0" VerticalAlignment="Top" Height="59" Width="76" Background="#FF949BEE"/>
-        <ListBox x:Name="lstToy" Margin="450,272,10,35" SelectionChanged="lstToy_SelectionChanged"/>
-        <Image x:Name="imgToy" HorizontalAlignment="Left" Height="148" Margin="450,115,0,0" VerticalAlignment="Top" Width="341"/>
         <Label Content="URL:" HorizontalAlignment="Left" Margin="144,312,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FFA15AF1" Height="48" Width="172" FontFamily="Goudy Stout"/>
-        <TextBox x:Name="txtURL" HorizontalAlignment="Left" Margin="201,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" TextChanged="TextBox_TextChanged" Height="48" FontSize="18"/>
-
+        <TextBox x:Name="txtURL" HorizontalAlignment="Left" Margin="201,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" Height="48" FontSize="18"/>
+        <Button x:Name="btnaddtoy" Content="Add Toy" HorizontalAlignment="Left" Margin="106,340,0,0" VerticalAlignment="Top" Height="59" Width="76" Background="#FF949BEE"/>
+        <ListBox x:Name="lstToy" Margin="450,272,10,35" MouseDoubleClick="lstToy_MouseDoubleClick"/>
+        <Image x:Name="imgToy" HorizontalAlignment="Left" Height="148" Margin="450,115,0,0" VerticalAlignment="Top" Width="341"/>
     </Grid>
 </Window>

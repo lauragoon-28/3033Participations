@@ -49,6 +49,7 @@ namespace Wpf_Classes
                 doubleCheck = false;
                 MessageBox.Show("You must enter a valid price");
             }
+
             Toy toy = new Toy();
             toy.Manufacturer = txtManufacturer.Text;
             toy.Name = txtName.Text;
@@ -56,8 +57,7 @@ namespace Wpf_Classes
             toy.Image = txtURL.Text;
             lstToy.Items.Add(toy);
         }
-
-        private void lstToy_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void lstToy_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             Toy selectedToy = (Toy)lstToy.SelectedItem;
             var uri = new Uri(txtURL.Text);
