@@ -13,9 +13,9 @@
         <Label Content="First Name" HorizontalAlignment="Left" Margin="441,23,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label Content="Last Name" HorizontalAlignment="Left" Margin="442,67,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="454,110,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="529,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" Height="22" FontSize="16"/>
-        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Margin="529,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" Height="22" FontSize="16"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="529,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" Height="22" FontSize="16"/>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="529,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" Height="22" FontSize="16" IsEnabled="False"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Margin="529,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" Height="22" FontSize="16" IsEnabled="False"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="529,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" Height="22" FontSize="16" IsEnabled="False"/>
         <Image x:Name="imgURL" HorizontalAlignment="Left" Height="248" Margin="441,141,0,0" VerticalAlignment="Top" Width="326"/>
 
     </Grid>
