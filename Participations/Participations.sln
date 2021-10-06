@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf-Classes", "Wpf-Classes\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf-Contact_List", "Wpf-Contact_List\Wpf-Contact_List.csproj", "{4A73ED62-4E48-4C8D-B87B-A35EF979CA44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON-ChuckNorris", "JSON-ChuckNorris\JSON-ChuckNorris.csproj", "{4FC88B80-35EB-42AC-B3D2-94102068EC57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON-ChuckNorris", "JSON-ChuckNorris\JSON-ChuckNorris.csproj", "{4FC88B80-35EB-42AC-B3D2-94102068EC57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON - Pokemon", "JSON - Pokemon\JSON - Pokemon.csproj", "{3EFC3BD9-E247-4985-901A-98D1608CAA07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4FC88B80-35EB-42AC-B3D2-94102068EC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FC88B80-35EB-42AC-B3D2-94102068EC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FC88B80-35EB-42AC-B3D2-94102068EC57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EFC3BD9-E247-4985-901A-98D1608CAA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EFC3BD9-E247-4985-901A-98D1608CAA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EFC3BD9-E247-4985-901A-98D1608CAA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EFC3BD9-E247-4985-901A-98D1608CAA07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
