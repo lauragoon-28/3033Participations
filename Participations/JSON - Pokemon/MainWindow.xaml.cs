@@ -24,6 +24,7 @@ namespace JSON___Pokemon
     {
         public MainWindow()
         {
+            // private PokeAPI = poke
             InitializeComponent();
 
             using (var client = new HttpClient())
@@ -37,6 +38,22 @@ namespace JSON___Pokemon
                     cboPokemon.Items.Add(item);
                 }
             }
+
+            // stirng url = _______
+            // using (var client = new HttpClient())
+            //{
+            //    HttpResponseMessage response = client.GetAsync(url).Result;
+            //
+            //    if (response.StatusCode == System.Net.HttpStatusCode.OK)
+            //    {
+            //        string json = response.Content.ReadAsStringAsync().Result;
+            //        PokemonAPI api = jsonconvert.deserializedobject<pokemoneapi>(json)
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show($"Error: {response.StatusCode}");
+            //    }
+            //}
         }
 
         private void btnSubmit_Click(object sender, RoutedEventArgs e)

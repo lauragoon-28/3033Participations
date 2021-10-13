@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf-Contact_List", "Wpf-Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON-ChuckNorris", "JSON-ChuckNorris\JSON-ChuckNorris.csproj", "{4FC88B80-35EB-42AC-B3D2-94102068EC57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON - Pokemon", "JSON - Pokemon\JSON - Pokemon.csproj", "{3EFC3BD9-E247-4985-901A-98D1608CAA07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON - Pokemon", "JSON - Pokemon\JSON - Pokemon.csproj", "{3EFC3BD9-E247-4985-901A-98D1608CAA07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON- Game of Thrones", "JSON- Game of Thrones\JSON- Game of Thrones.csproj", "{8689AB19-2512-4837-89B9-20418882D925}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3EFC3BD9-E247-4985-901A-98D1608CAA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EFC3BD9-E247-4985-901A-98D1608CAA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EFC3BD9-E247-4985-901A-98D1608CAA07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8689AB19-2512-4837-89B9-20418882D925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8689AB19-2512-4837-89B9-20418882D925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8689AB19-2512-4837-89B9-20418882D925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8689AB19-2512-4837-89B9-20418882D925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

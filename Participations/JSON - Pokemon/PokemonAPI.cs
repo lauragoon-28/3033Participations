@@ -6,6 +6,7 @@ namespace JSON___Pokemon
 {
     public class PokemonAPI
     {
+        public int count { get; set; }
         public List<Result> results { get; set; }
 
     }
@@ -13,7 +14,7 @@ namespace JSON___Pokemon
     public class PokeAPI
     {
         public int height { get; set; }
-        public int weight { get; set; }
+        public double weight { get; set; }
         public sprites sprite { get; set; }
     }
     public class sprites
