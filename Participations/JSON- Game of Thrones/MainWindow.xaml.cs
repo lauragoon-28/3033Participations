@@ -42,6 +42,7 @@ namespace JSON__Game_of_Thrones
                 txtQuote.Text = api.ToString();
                 quotes.Add(api);
             }
+            
         }
 
         private void btnExport_Click(object sender, RoutedEventArgs e)
