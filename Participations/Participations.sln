@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON - Pokemon", "JSON - Po
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON- Game of Thrones", "JSON- Game of Thrones\JSON- Game of Thrones.csproj", "{8689AB19-2512-4837-89B9-20418882D925}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON-Serialization", "JSON-Serialization\JSON-Serialization.csproj", "{B3684BFD-8A52-44D8-BDE0-D32EFF4F17F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON-Serialization", "JSON-Serialization\JSON-Serialization.csproj", "{B3684BFD-8A52-44D8-BDE0-D32EFF4F17F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC - Beginner", "MVC - Beginner\MVC - Beginner.csproj", "{C1D22662-8777-4AC0-9723-AA2923C020B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beginner", "Beginner\Beginner.csproj", "{30C8B2B0-379F-437C-90D0-101BDA28564E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_EF", "MVC_EF\MVC_EF.csproj", "{6F8B63CF-891E-4244-8FF0-48EF8FD09140}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{B3684BFD-8A52-44D8-BDE0-D32EFF4F17F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3684BFD-8A52-44D8-BDE0-D32EFF4F17F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3684BFD-8A52-44D8-BDE0-D32EFF4F17F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D22662-8777-4AC0-9723-AA2923C020B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D22662-8777-4AC0-9723-AA2923C020B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D22662-8777-4AC0-9723-AA2923C020B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D22662-8777-4AC0-9723-AA2923C020B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C8B2B0-379F-437C-90D0-101BDA28564E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C8B2B0-379F-437C-90D0-101BDA28564E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C8B2B0-379F-437C-90D0-101BDA28564E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C8B2B0-379F-437C-90D0-101BDA28564E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8B63CF-891E-4244-8FF0-48EF8FD09140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8B63CF-891E-4244-8FF0-48EF8FD09140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8B63CF-891E-4244-8FF0-48EF8FD09140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8B63CF-891E-4244-8FF0-48EF8FD09140}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
